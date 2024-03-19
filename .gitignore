@@ -1,0 +1,14 @@
+# Ignore CMake files
+CMakeFiles/
+cmake-build-*/
+
+# Ignore compiled binaries
+*.out
+*.app
+*.exe
+
+# Ignore build artifacts
+build/
+cmake-build-debug/
+cmake-build-release/
+
