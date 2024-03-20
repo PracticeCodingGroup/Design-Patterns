@@ -11,3 +11,4 @@ include_directories(
 )
 
 add_subdirectory(Simple_Factory)
+add_subdirectory(Strategy)
