@@ -9,3 +9,5 @@ include(FetchContent)
 include_directories(
 	./Definition
 )
+
+add_subdirectory(Simple_Factory)
