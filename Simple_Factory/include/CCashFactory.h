@@ -4,7 +4,7 @@
 class CCashFactory
 {
 public:
-	ICashModule* CreateCashType(CashType type) {
+	CCashModule* CreateCashType(CashType type) {
 		switch (type)
 		{
 		case CashType::Normal:

@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
-#include "ICashModule.h"
-#include "CashType.h"
+#include "CCashModule_Base.h"
+#include "CashTypeEnum.h"
 
-class CCashNormal : public ICashModule
+class CCashNormal : public CCashModule
 {
 public:
 	CCashNormal();
@@ -15,7 +15,7 @@ private:
 	CashType typename_ = CashType::Normal;
 };
 
-class CCashDiscount : public ICashModule
+class CCashDiscount : public CCashModule
 {
 public:
 	CCashDiscount() = delete;
@@ -29,7 +29,7 @@ private:
 	double discount_;
 };
 
-class CCashRebate : public ICashModule
+class CCashRebate : public CCashModule
 {
 public:
 	CCashRebate() = delete;

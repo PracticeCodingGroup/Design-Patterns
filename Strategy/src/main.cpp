@@ -7,7 +7,7 @@
 using namespace std;
 
 #include "CCashContext.h"
-#include "CashType.h"
+#include "CashTypeEnum.h"
 
 int main(){
     cout << "==================== Strategy ====================" << endl;

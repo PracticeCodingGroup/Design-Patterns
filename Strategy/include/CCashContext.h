@@ -27,5 +27,5 @@ public:
 	}
 
 private:
-	ICashModule* cashmodule_;
+	CCashModule* cashmodule_;
 };
