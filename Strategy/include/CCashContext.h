@@ -22,7 +22,7 @@ public:
 		}				
 	};
 
-	double GetReturn(double price, double num) {
+	double GetReturnCash(double price, double num) {
 		return cashmodule_->ReturnCash(price, num);
 	}
 
