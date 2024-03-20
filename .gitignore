@@ -6,6 +6,7 @@ cmake-build-*/
 *.out
 *.app
 *.exe
+*.vs
 
 # Ignore build artifacts
 build/

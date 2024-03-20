@@ -6,3 +6,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 include(FetchContent)
 
+include_directories(
+	./Definition
+)
