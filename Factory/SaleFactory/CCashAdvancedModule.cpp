@@ -6,7 +6,7 @@ CCashDiscountAndRebate::CCashDiscountAndRebate(double discount, double condition
 	std::cout << " [discount: " << discount_ << ", condition: " << condition_ << ", rebate: " << rebate_ << "]" << std::endl;
 }
 
-ISale* CCashDiscountAndRebate::CrateSalesModel()
+ISale* CCashDiscountAndRebate::CreateSalesModel()
 {
 	CCashNormal* cashnormal_ = new CCashNormal();
 	CCashDiscount* cashdiscount_ = new CCashDiscount(discount_);
@@ -28,7 +28,7 @@ CCashRebateAndDiscount::CCashRebateAndDiscount(double discount, double condition
 	std::cout << " [discount: " << discount_ << ", condition: " << condition_ << ", rebate: " << rebate_ << "]" << std::endl;
 }
 
-ISale* CCashRebateAndDiscount::CrateSalesModel()
+ISale* CCashRebateAndDiscount::CreateSalesModel()
 {
 	CCashNormal* cashnormal_ = new CCashNormal();
 	CCashRebate* cashrebate_ = new CCashRebate(condition_, rebate_);

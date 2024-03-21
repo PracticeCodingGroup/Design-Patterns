@@ -39,7 +39,7 @@ public:
 			factory_ = nullptr;
 			break;
 		}
-		cashmodule_ = factory_->CrateSalesModel();
+		cashmodule_ = factory_->CreateSalesModel();
 	};
 
 	double GetReturnCash(const double price, const double num) {	

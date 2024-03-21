@@ -9,7 +9,7 @@ class CCashDiscountAndRebate : public IFactory
 public:
 	CCashDiscountAndRebate(double discount, double condition, double rebate);
 	~CCashDiscountAndRebate() {};
-	ISale* CrateSalesModel();
+	ISale* CreateSalesModel();
 	CashType TypeName() const final;
 
 private:
@@ -24,7 +24,7 @@ class CCashRebateAndDiscount : public IFactory
 public:
 	CCashRebateAndDiscount(double discount, double condition, double rebate);
 	~CCashRebateAndDiscount() {};
-	ISale* CrateSalesModel();
+	ISale* CreateSalesModel();
 	CashType TypeName() const final;
 
 private:

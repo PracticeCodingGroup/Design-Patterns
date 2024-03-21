@@ -13,7 +13,7 @@ class IFactory
 {
 public:
     virtual ~IFactory() = default;
-    virtual ISale* CrateSalesModel() = 0;
+    virtual ISale* CreateSalesModel() = 0;
     virtual CashType TypeName() const = 0;
 };
 
